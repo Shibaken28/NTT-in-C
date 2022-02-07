@@ -73,7 +73,6 @@ void fft(long f[],long N,long k,long r[],int inv){
         r2[i+N/2]=r2[i];
     }
 
-    /*なんか書け*/
     //printf("N = %d\n",N);
     for(long i=0;i<N;i++){
         //r[i]=r1[i] + theta*i r2[i];
